@@ -1,3 +1,4 @@
+# PROBLEM 1
 def sum_for(arr):
 	# start sum at 0
 	sum = 0
@@ -31,6 +32,7 @@ def sum_recursion(arr):
 		# and recurse with the remaining values
 		return running_sum + sum_recursion(arr) 
 
+# PROBLEM 2
 def concat_lists(arr1, arr2):
 	# assuming these 2 lists might not be the same length
 	
@@ -52,6 +54,7 @@ def concat_lists(arr1, arr2):
 
 	return final
 
+# PROBLEM 3
 def fibo():
 	# start with definition
 	arr = [0,1]
@@ -62,7 +65,3 @@ def fibo():
 	return arr
 
 
-# print(sum_recursion([1,2,3,4]))
-#print(concat_lists(['a','b','c','d'], [1,2,3]))
-thing = fibo()
-print(len(thing))
